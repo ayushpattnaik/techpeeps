@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1024991514007",
+    "project_id": "my-application-6edf4",
+    "storage_bucket": "my-application-6edf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024991514007:android:cddb095e1b4575fb6808d2",
+        "android_client_info": {
+          "package_name": "com.smartherd.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024991514007-qg0h64u88af20pshtkqeuma0l5mihd2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC8KW4TZEeHo4WcBVxdeDuDjr18G8o9oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024991514007-qg0h64u88af20pshtkqeuma0l5mihd2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

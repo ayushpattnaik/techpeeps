@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="register">Register</string>
+    <string name="login_to_continue">Login To Continue</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+</resources>
