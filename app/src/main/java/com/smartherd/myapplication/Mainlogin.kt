@@ -5,9 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main_login.*
 
-class MainActivity: AppCompatActivity() {
+class Mainlogin: AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
 
@@ -15,7 +15,7 @@ class MainActivity: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main_login)
         auth= FirebaseAuth.getInstance()
         Register.setOnClickListener {
             var intent = Intent(this, RegisterActivity::class.java)

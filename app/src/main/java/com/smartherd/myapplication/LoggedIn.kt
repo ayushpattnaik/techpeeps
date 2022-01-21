@@ -16,7 +16,7 @@ class LoggedIn : AppCompatActivity() {
         val isLogin=sharedPref.getString("Email","1")
         logout.setOnClickListener {
             sharedPref.edit().remove("Email").apply()
-            var intent = Intent(this,MainActivity::class.java)
+            var intent = Intent(this,Mainlogin::class.java)
             startActivity(intent)
             finish()
         }
@@ -33,7 +33,7 @@ class LoggedIn : AppCompatActivity() {
                 }
             }
             else{
-                var intent = Intent(this,MainActivity::class.java)
+                var intent = Intent(this,Mainlogin::class.java)
                 startActivity(intent)
                 finish()
             }
